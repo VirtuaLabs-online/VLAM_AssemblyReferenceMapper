@@ -1,0 +1,744 @@
+{
+  "mappings": {
+    "pi": {
+      "assemblyName": "at.pimaker.ltcgi.Editor",
+      "asmdefPath": "Packages/at.pimaker.ltcgi/Editor/LTCGI_Assembly_Editor.asmdef",
+      "source": "Packages"
+    },
+    "pi.LTCGI": {
+      "assemblyName": "at.pimaker.ltcgi.Editor",
+      "asmdefPath": "Packages/at.pimaker.ltcgi/Editor/LTCGI_Assembly_Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRSL": {
+      "assemblyName": "VRSL.Editor",
+      "asmdefPath": "Packages/com.acchosen.vr-stage-lighting/Editor/VRSL.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRSL.Shaders": {
+      "assemblyName": "VRSL.Editor",
+      "asmdefPath": "Packages/com.acchosen.vr-stage-lighting/Editor/VRSL.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRSL.EditorScripts": {
+      "assemblyName": "VRSL.Core",
+      "asmdefPath": "Packages/com.acchosen.vr-stage-lighting/Runtime/Scripts/VRSL.Core.asmdef",
+      "source": "Packages"
+    },
+    "AudioLink": {
+      "assemblyName": "AudioLink.Editor",
+      "asmdefPath": "Packages/com.llealloo.audiolink/Editor/Audiolink.Editor.asmdef",
+      "source": "Packages"
+    },
+    "AudioLink.Editor": {
+      "assemblyName": "AudioLink.Editor",
+      "asmdefPath": "Packages/com.llealloo.audiolink/Editor/Audiolink.Editor.asmdef",
+      "source": "Packages"
+    },
+    "Texel": {
+      "assemblyName": "com.texelsaur.access.Editor",
+      "asmdefPath": "Packages/com.texelsaur.access/Editor/com.texelsaur.access.Editor.asmdef",
+      "source": "Packages"
+    },
+    "Texel.Demo": {
+      "assemblyName": "com.texelsaur.common",
+      "asmdefPath": "Packages/com.texelsaur.common/Runtime/com.texelsaur.common.asmdef",
+      "source": "Packages"
+    },
+    "Texel.Video": {
+      "assemblyName": "com.texelsaur.video.Editor",
+      "asmdefPath": "Packages/com.texelsaur.video/Editor/com.texelsaur.video.Editor.asmdef",
+      "source": "Packages"
+    },
+    "Texel.Video.Internal": {
+      "assemblyName": "com.texelsaur.video.Editor",
+      "asmdefPath": "Packages/com.texelsaur.video/Editor/com.texelsaur.video.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDKBase": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDKBase.Editor": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDKBase.Editor.VTP": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Editor": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "in": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDKBase.Editor.Api": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRCSDK2": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.PackageManagement": {
+      "assemblyName": "com.vrchat.core.vpm-resolver.Editor",
+      "asmdefPath": "Packages/com.vrchat.core.vpm-resolver/Editor/com.vrchat.core.vpm-resolver.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDKBase.Editor.ShaderStripping": {
+      "assemblyName": "VRC.SDKBase.Editor.ShaderStripping",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/Dependencies/VRChat/ShaderStripping/VRC.SDKBase.Editor.ShaderStripping.asmdef",
+      "source": "Packages"
+    },
+    "Cysharp": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "Cysharp.Threading": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "Cysharp.Threading.Tasks": {
+      "assemblyName": "UniTask.TextMeshPro",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/UniTask/Runtime/External/TextMeshPro/UniTask.TextMeshPro.asmdef",
+      "source": "Packages"
+    },
+    "Cysharp.Threading.Tasks.Editor": {
+      "assemblyName": "UniTask.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/Plugins/UniTask/Editor/UniTask.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDKBase.Editor.BuildPipeline": {
+      "assemblyName": "VRC.SDKBase.Editor.BuildPipeline",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/Dependencies/VRChat/BuildPipeline/VRC.SDKBase.Editor.BuildPipeline.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDKBase.Editor.BuildPipeline.Samples": {
+      "assemblyName": "VRC.SDKBase.Editor.BuildPipeline",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/Dependencies/VRChat/BuildPipeline/VRC.SDKBase.Editor.BuildPipeline.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDKBase.Editor.Elements": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.Editor": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.Editor.Elements": {
+      "assemblyName": "VRC.SDK3.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/VRCSDK/VRC.SDK3.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDKBase.Validation": {
+      "assemblyName": "VRC.SDKBase",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/VRC.SDKBase.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDKBase.Validation.Performance": {
+      "assemblyName": "VRC.SDKBase.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Editor/VRCSDK/VRC.SDKBase.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Core": {
+      "assemblyName": "VRC.SDKBase",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/VRC.SDKBase.asmdef",
+      "source": "Packages"
+    },
+    "VRC.": {
+      "assemblyName": "VRC.SDKBase",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/VRC.SDKBase.asmdef",
+      "source": "Packages"
+    },
+    "Cysharp.Threading.Tasks.Internal": {
+      "assemblyName": "UniTask",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/UniTask/Runtime/UniTask.asmdef",
+      "source": "Packages"
+    },
+    "System": {
+      "assemblyName": "VRC.SDKBase",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/VRC.SDKBase.asmdef",
+      "source": "Packages"
+    },
+    "System.Runtime": {
+      "assemblyName": "UniTask",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/UniTask/Runtime/UniTask.asmdef",
+      "source": "Packages"
+    },
+    "System.Runtime.CompilerServices": {
+      "assemblyName": "UniTask",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/UniTask/Runtime/UniTask.asmdef",
+      "source": "Packages"
+    },
+    "Cysharp.Threading.Tasks.CompilerServices": {
+      "assemblyName": "UniTask",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/UniTask/Runtime/UniTask.asmdef",
+      "source": "Packages"
+    },
+    "Cysharp.Threading.Tasks.Linq": {
+      "assemblyName": "UniTask.Linq",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/UniTask/Runtime/Linq/UniTask.Linq.asmdef",
+      "source": "Packages"
+    },
+    "Cysharp.Threading.Tasks.Triggers": {
+      "assemblyName": "UniTask",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/UniTask/Runtime/UniTask.asmdef",
+      "source": "Packages"
+    },
+    "UnityEditor": {
+      "assemblyName": "VRC.SDKBase",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/VRC.SDKBase.asmdef",
+      "source": "Packages"
+    },
+    "VRC.ToonStandard": {
+      "assemblyName": "VRC.SDKBase",
+      "asmdefPath": "Packages/com.vrchat.base/Runtime/VRCSDK/VRC.SDKBase.asmdef",
+      "source": "Packages"
+    },
+    "VRC.ExampleCentral": {
+      "assemblyName": "VRC.ExampleCentral.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Integrations/VRChat Example Central/Editor/VRC.ExampleCentral.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.ExampleCentral.Types": {
+      "assemblyName": "VRC.ExampleCentral.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Integrations/VRChat Example Central/Editor/VRC.ExampleCentral.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.ExampleCentral.Types.Algolia": {
+      "assemblyName": "VRC.ExampleCentral.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Integrations/VRChat Example Central/Editor/VRC.ExampleCentral.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.ExampleCentral.Window": {
+      "assemblyName": "VRC.ExampleCentral.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Integrations/VRChat Example Central/Editor/VRC.ExampleCentral.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.ExampleCentral.Editor": {
+      "assemblyName": "VRC.ExampleCentral.Editor",
+      "asmdefPath": "Packages/com.vrchat.base/Integrations/VRChat Example Central/Editor/VRC.ExampleCentral.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.PackageManagement.PackageMaker": {
+      "assemblyName": "com.vrchat.core.vpm-resolver.Editor",
+      "asmdefPath": "Packages/com.vrchat.core.vpm-resolver/Editor/com.vrchat.core.vpm-resolver.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.PackageManagement.Resolver": {
+      "assemblyName": "com.vrchat.core.vpm-resolver.Editor",
+      "asmdefPath": "Packages/com.vrchat.core.vpm-resolver/Editor/com.vrchat.core.vpm-resolver.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Editor": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.Data": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.Data.Editor": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Graph": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Graph.NodeRegistries": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Editor.ProgramSources": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.EditorBindings": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "Tests": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "Tests.DataContainers": {
+      "assemblyName": "UnityEditorTests",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/UnityEditorTests/Tests.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Editor.ProgramSources.Attributes": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Editor.ProgramSources.UdonGraphProgram": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Editor.ProgramSources.UdonGraphProgram.UI": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Editor.ProgramSources.UdonGraphProgram.UI.GraphView": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UnityEditor.Experimental": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UnityEditor.Experimental.GraphView": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UnityEditor.Experimental.UIElements": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UnityEditor.Experimental.UIElements.GraphView": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Editor.ProgramSources.UdonGraphProgram.UI.GraphView.UdonNodes": {
+      "assemblyName": "VRC.Udon.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/Udon/VRC.Udon.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.Midi": {
+      "assemblyName": "VRC.SDK3.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/VRCSDK/VRC.SDK3.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.Components": {
+      "assemblyName": "VRC.SDK3.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/VRCSDK/VRC.SDK3.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.Components.Editor": {
+      "assemblyName": "VRC.SDK3.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/VRCSDK/VRC.SDK3.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3A": {
+      "assemblyName": "VRC.SDK3.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/VRCSDK/VRC.SDK3.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3A.Editor": {
+      "assemblyName": "VRC.SDK3.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/VRCSDK/VRC.SDK3.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3A.Editor.Elements": {
+      "assemblyName": "VRC.SDK3.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Editor/VRCSDK/VRC.SDK3.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.ProgramSources": {
+      "assemblyName": "VRC.Udon",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/Udon/VRC.Udon.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Wrapper": {
+      "assemblyName": "VRC.Udon",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/Udon/VRC.Udon.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Wrapper.Modules": {
+      "assemblyName": "VRC.Udon",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/Udon/VRC.Udon.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Serialization": {
+      "assemblyName": "VRC.Udon.Serialization.OdinSerializer",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/Udon/Serialization/OdinSerializer/VRC.Udon.Serialization.OdinSerializer.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Serialization.Formatters": {
+      "assemblyName": "VRC.Udon",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/Udon/VRC.Udon.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Serialization.OdinSerializer": {
+      "assemblyName": "VRC.Udon.Serialization.OdinSerializer",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/Udon/Serialization/OdinSerializer/VRC.Udon.Serialization.OdinSerializer.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Serialization.OdinSerializer.Utilities": {
+      "assemblyName": "VRC.Udon.Serialization.OdinSerializer",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/Udon/Serialization/OdinSerializer/VRC.Udon.Serialization.OdinSerializer.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Serialization.OdinSerializer.Utilities.Editor": {
+      "assemblyName": "VRC.Udon.Serialization.OdinSerializer",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/Udon/Serialization/OdinSerializer/VRC.Udon.Serialization.OdinSerializer.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Serialization.OdinSerializer.Editor": {
+      "assemblyName": "VRC.Udon.Serialization.OdinSerializer",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/Udon/Serialization/OdinSerializer/VRC.Udon.Serialization.OdinSerializer.asmdef",
+      "source": "Packages"
+    },
+    "Namespace": {
+      "assemblyName": "VRC.Udon.Serialization.OdinSerializer",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/Udon/Serialization/OdinSerializer/VRC.Udon.Serialization.OdinSerializer.asmdef",
+      "source": "Packages"
+    },
+    "VRC.Udon.Serialization.OdinSerializer.Utilities.Unsafe": {
+      "assemblyName": "VRC.Udon.Serialization.OdinSerializer",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/Udon/Serialization/OdinSerializer/VRC.Udon.Serialization.OdinSerializer.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDKBase.Midi": {
+      "assemblyName": "VRC.SDK3",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/VRCSDK/VRC.SDK3.asmdef",
+      "source": "Packages"
+    },
+    "PortMidi": {
+      "assemblyName": "VRC.SDK3",
+      "asmdefPath": "Packages/com.vrchat.worlds/Runtime/VRCSDK/VRC.SDK3.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.ClientSim": {
+      "assemblyName": "VRC.ClientSim.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Editor/VRC.ClientSim.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.ClientSim.Editor": {
+      "assemblyName": "VRC.ClientSim.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Editor/VRC.ClientSim.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.ClientSim.Editor.VisualElements": {
+      "assemblyName": "VRC.ClientSim.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Editor/VRC.ClientSim.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.ClientSim.Editor.VisualElements.EncodeDecodeEditors": {
+      "assemblyName": "VRC.ClientSim.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Editor/VRC.ClientSim.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.ClientSim.Editor.VisualElements.Fields": {
+      "assemblyName": "VRC.ClientSim.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Editor/VRC.ClientSim.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.ClientSim.EncodeDecoders": {
+      "assemblyName": "VRC.ClientSim",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/VRC.ClientSim.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.ClientSim.Interfaces": {
+      "assemblyName": "VRC.ClientSim",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/VRC.ClientSim.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.ClientSim.Persistence": {
+      "assemblyName": "VRC.ClientSim",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/VRC.ClientSim.asmdef",
+      "source": "Packages"
+    },
+    "VRC.SDK3.ClientSim.PlayerTracking": {
+      "assemblyName": "VRC.ClientSim",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Runtime/VRC.ClientSim.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharpEditor": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Compiler": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Deprecated": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "Merlin": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Editors": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "sections": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Serialization": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Compiler.Assembly": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "Instructions": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Compiler.Binder": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Core": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Compiler.Emit": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Compiler.Udon": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Compiler.Symbols": {
+      "assemblyName": "UdonSharp.Editor",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharp.Editor.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Updater": {
+      "assemblyName": "UdonSharp.Runtime",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharp.Runtime.asmdef",
+      "source": "Packages"
+    },
+    "Internal": {
+      "assemblyName": "UdonSharp.Runtime",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharp.Runtime.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Localization": {
+      "assemblyName": "UdonSharp.Runtime",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharp.Runtime.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Lib": {
+      "assemblyName": "UdonSharp.Runtime",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharp.Runtime.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Lib.Internal": {
+      "assemblyName": "UdonSharp.Lib",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/Libraries/UdonSharp.Lib.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharpTests": {
+      "assemblyName": "UdonSharp.Tests",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Tests~/UdonSharp.Tests.asmdef",
+      "source": "Packages"
+    },
+    "UdonSharp.Tests": {
+      "assemblyName": "UdonSharp.Tests",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/UdonSharp/Tests~/UdonSharp.Tests.asmdef",
+      "source": "Packages"
+    },
+    "ClientSimTest": {
+      "assemblyName": "ClientSimIssue3.Tests",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Samples~/ClientSimSelfTests/ClientSimSelfTests.asmdef",
+      "source": "Packages"
+    },
+    "ClientSimTest.Tests": {
+      "assemblyName": "ClientSimIssue3.Tests",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Samples~/ClientSimSelfTests/ClientSimSelfTests.asmdef",
+      "source": "Packages"
+    },
+    "ClientSimTest.Tests.WorldTests": {
+      "assemblyName": "ClientSimIssue3.Tests",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Samples~/ClientSimSelfTests/ClientSimSelfTests.asmdef",
+      "source": "Packages"
+    },
+    "ClientSimTest.Examples": {
+      "assemblyName": "ClientSimExample.Tests",
+      "asmdefPath": "Packages/com.vrchat.worlds/Integrations/ClientSim/Samples~/ClientSimWorldTestExample/ClientSimExample.Tests.asmdef",
+      "source": "Packages"
+    },
+    "VRWorldToolkit": {
+      "assemblyName": "VRWorldToolkit.Editor",
+      "asmdefPath": "Packages/dev.onevr.vrworldtoolkit/Editor/VRWorldToolkit.Editor.asmdef",
+      "source": "Packages"
+    },
+    "VRWorldToolkit.Editor": {
+      "assemblyName": "VRWorldToolkit.Editor",
+      "asmdefPath": "Packages/dev.onevr.vrworldtoolkit/Editor/VRWorldToolkit.Editor.asmdef",
+      "source": "Packages"
+    },
+    "Flexicurve": {
+      "assemblyName": "flexicurveEditor",
+      "asmdefPath": "Packages/red.sim.flexicurve/Scripts/Editor/flexicurveEditor.asmdef",
+      "source": "Packages"
+    },
+    "VRCLightVolumes": {
+      "assemblyName": "red.sim.LightVolumes",
+      "asmdefPath": "Packages/red.sim.lightvolumes/Scripts/red.sim.LightVolumes.asmdef",
+      "source": "Packages"
+    },
+    "ORL": {
+      "assemblyName": "ORL.Shaders.Editor",
+      "asmdefPath": "Packages/sh.orels.shaders/Editor/ORL.Shaders.Editor.asmdef",
+      "source": "Packages"
+    },
+    "ORL.Shaders": {
+      "assemblyName": "ORL.Shaders.Editor",
+      "asmdefPath": "Packages/sh.orels.shaders/Editor/ORL.Shaders.Editor.asmdef",
+      "source": "Packages"
+    },
+    "ORL.Shaders.UpgradePlans": {
+      "assemblyName": "ORL.Shaders.Editor",
+      "asmdefPath": "Packages/sh.orels.shaders/Editor/ORL.Shaders.Editor.asmdef",
+      "source": "Packages"
+    },
+    "ORL.ShaderGenerator": {
+      "assemblyName": "ORL.ShaderGenerator",
+      "asmdefPath": "Packages/sh.orels.shaders.generator/Editor/ORL.ShaderGenerator.asmdef",
+      "source": "Packages"
+    },
+    "ORL.ShaderGenerator.Settings": {
+      "assemblyName": "ORL.ShaderGenerator",
+      "asmdefPath": "Packages/sh.orels.shaders.generator/Editor/ORL.ShaderGenerator.asmdef",
+      "source": "Packages"
+    },
+    "UnityShaderParser": {
+      "assemblyName": "ORL.ShaderGenerator",
+      "asmdefPath": "Packages/sh.orels.shaders.generator/Editor/ORL.ShaderGenerator.asmdef",
+      "source": "Packages"
+    },
+    "UnityShaderParser.HLSL": {
+      "assemblyName": "UnityShaderParser",
+      "asmdefPath": "Packages/sh.orels.shaders.generator/Editor/Dependencies/UnityShaderParser/UnityShaderParser.asmdef",
+      "source": "Packages"
+    },
+    "UnityShaderParser.Common": {
+      "assemblyName": "UnityShaderParser",
+      "asmdefPath": "Packages/sh.orels.shaders.generator/Editor/Dependencies/UnityShaderParser/UnityShaderParser.asmdef",
+      "source": "Packages"
+    },
+    "UnityShaderParser.ShaderLab": {
+      "assemblyName": "UnityShaderParser",
+      "asmdefPath": "Packages/sh.orels.shaders.generator/Editor/Dependencies/UnityShaderParser/UnityShaderParser.asmdef",
+      "source": "Packages"
+    },
+    "UnityShaderParser.HLSL.PreProcessor": {
+      "assemblyName": "UnityShaderParser",
+      "asmdefPath": "Packages/sh.orels.shaders.generator/Editor/Dependencies/UnityShaderParser/UnityShaderParser.asmdef",
+      "source": "Packages"
+    },
+    "ORL.ShaderInspector": {
+      "assemblyName": "ORL.ShaderInspector",
+      "asmdefPath": "Packages/sh.orels.shaders.inspector/ORL.ShaderInspector.asmdef",
+      "source": "Packages"
+    },
+    "ORL.Drawers": {
+      "assemblyName": "ORL.ShaderInspector",
+      "asmdefPath": "Packages/sh.orels.shaders.inspector/ORL.ShaderInspector.asmdef",
+      "source": "Packages"
+    },
+    "ORL.ShaderInspector.MaterialLibraries": {
+      "assemblyName": "ORL.ShaderInspector",
+      "asmdefPath": "Packages/sh.orels.shaders.inspector/ORL.ShaderInspector.asmdef",
+      "source": "Packages"
+    },
+    "ORL.ShaderConditions": {
+      "assemblyName": "ORL.ShaderInspector",
+      "asmdefPath": "Packages/sh.orels.shaders.inspector/ORL.ShaderInspector.asmdef",
+      "source": "Packages"
+    },
+    "EasyQuestSwitch": {
+      "assemblyName": "vrchat.jordo.easyquestswitch",
+      "asmdefPath": "Packages/vrchat.jordo.easyquestswitch/vrchat.jordo.easyquestswitch.asmdef",
+      "source": "Packages"
+    },
+    "EasyQuestSwitch.Fields": {
+      "assemblyName": "vrchat.jordo.easyquestswitch",
+      "asmdefPath": "Packages/vrchat.jordo.easyquestswitch/vrchat.jordo.easyquestswitch.asmdef",
+      "source": "Packages"
+    },
+    "EasyQuestSwitch.Types": {
+      "assemblyName": "vrchat.jordo.easyquestswitch",
+      "asmdefPath": "Packages/vrchat.jordo.easyquestswitch/vrchat.jordo.easyquestswitch.asmdef",
+      "source": "Packages"
+    },
+    "DrBlackRat": {
+      "assemblyName": "xyz.drblackrat.pictureloader.Editor",
+      "asmdefPath": "Packages/xyz.drblackrat.pictureloader/Editor/xyz.drblackrat.pictureloader.Editor.asmdef",
+      "source": "Packages"
+    },
+    "DrBlackRat.VRC": {
+      "assemblyName": "xyz.drblackrat.pictureloader.Editor",
+      "asmdefPath": "Packages/xyz.drblackrat.pictureloader/Editor/xyz.drblackrat.pictureloader.Editor.asmdef",
+      "source": "Packages"
+    },
+    "DrBlackRat.VRC.PictureLoader": {
+      "assemblyName": "xyz.drblackrat.pictureloader.Editor",
+      "asmdefPath": "Packages/xyz.drblackrat.pictureloader/Editor/xyz.drblackrat.pictureloader.Editor.asmdef",
+      "source": "Packages"
+    }
+  }
+}
