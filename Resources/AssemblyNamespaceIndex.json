@@ -739,6 +739,105 @@
       "assemblyName": "xyz.drblackrat.pictureloader.Editor",
       "asmdefPath": "Packages/xyz.drblackrat.pictureloader/Editor/xyz.drblackrat.pictureloader.Editor.asmdef",
       "source": "Packages"
+    },
+    {
+  "mappings": {
+    "valenvrc": {
+      "assemblyName": "valenvrc.AdminTablet.Editor",
+      "asmdefPath": "Packages/com.valenvrc.admin_tablet/Editor/valenvrc.AdminTablet.Editor.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.AdminTablet": {
+      "assemblyName": "valenvrc.AdminTablet.Editor",
+      "asmdefPath": "Packages/com.valenvrc.admin_tablet/Editor/valenvrc.AdminTablet.Editor.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.AdminTablet.Editor": {
+      "assemblyName": "valenvrc.AdminTablet.Editor",
+      "asmdefPath": "Packages/com.valenvrc.admin_tablet/Editor/valenvrc.AdminTablet.Editor.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.AdminTablet.Extras": {
+      "assemblyName": "valenvrc.AdminTablet",
+      "asmdefPath": "Packages/com.valenvrc.admin_tablet/Runtime/Scripts/valenvrc.AdminTablet.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.AlcoholSystem": {
+      "assemblyName": "valenvrc.AlcoholSystem.Editor",
+      "asmdefPath": "Packages/com.valenvrc.alcohol_system/Editor/valenvrc.AlcoholSystem.Editor.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.AvatarEnforcer": {
+      "assemblyName": "Valenvrc.Valenvrc.AvatarEnforcer.Runtime",
+      "asmdefPath": "Packages/com.valenvrc.avatar_enforcer/Runtime/Scripts/Valenvrc.Valenvrc.AvatarEnforcer.Runtime.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.Bonk": {
+      "assemblyName": "valenvrc.Bonk.Runtime",
+      "asmdefPath": "Packages/com.valenvrc.bonk/Runtime/Bonk/Script/valenvrc.Bonk.Runtime.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.BouncerSystem": {
+      "assemblyName": "valenvrc.BouncerSystem.Editor",
+      "asmdefPath": "Packages/com.valenvrc.bouncer_system/Editor/valenvrc.BouncerSystem.Editor.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.Counter": {
+      "assemblyName": "valenvrc.counter",
+      "asmdefPath": "Packages/com.valenvrc.counter/Runtime/Scripts/valenvrc.counter.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.DrinkingRoulette": {
+      "assemblyName": "valenvrc.DrinkingRoulette.Editor",
+      "asmdefPath": "Packages/com.valenvrc.drinking_roulette/Editor/valenvrc.DrinkingRoulette.Editor.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.FloatingTags": {
+      "assemblyName": "valenvrc.FloatingTags.Editor",
+      "asmdefPath": "Packages/com.valenvrc.floating_tags/Editor/valenvrc.FloatingTags.Editor.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.LauchPads": {
+      "assemblyName": "valenvrc.LaunchPads.Editor",
+      "asmdefPath": "Packages/com.valenvrc.launchpads/Editor/valenvrc.LaunchPads.Editor.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.LauchPads.Editor": {
+      "assemblyName": "valenvrc.LaunchPads.Editor",
+      "asmdefPath": "Packages/com.valenvrc.launchpads/Editor/valenvrc.LaunchPads.Editor.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.RoomSystem": {
+      "assemblyName": "valenvrc.RoomSystem.Editor",
+      "asmdefPath": "Packages/com.valenvrc.room_system/Editor/valenvrc.RoomSystem.Editor.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.RussianRoulette": {
+      "assemblyName": "valenvrc.RussianRoullette",
+      "asmdefPath": "Packages/com.valenvrc.russian_roullette/Runtime/Scripts/valenvrc.RussianRoullette.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.SecurityKeypad": {
+      "assemblyName": "valenvrc.SecurityKeypad.Editor",
+      "asmdefPath": "Packages/com.valenvrc.security_keypad/Editor/valenvrc.SecurityKeypad.Editor.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.SecurityKeypad.Editor": {
+      "assemblyName": "valenvrc.SecurityKeypad.Editor",
+      "asmdefPath": "Packages/com.valenvrc.security_keypad/Editor/valenvrc.SecurityKeypad.Editor.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.WhitelistedTP": {
+      "assemblyName": "valenvrc.Valenvrc.WhitelistedTP.Runtime",
+      "asmdefPath": "Packages/com.valenvrc.whitelistedtp/Runtime/Scripts/valenvrc.Valenvrc.WhitelistedTP.Runtime.asmdef",
+      "source": "Packages"
+    },
+    "valenvrc.Common": {
+      "assemblyName": "valenvrc.Common.Runtime",
+      "asmdefPath": "Packages/com.valenvrc.common/Runtime/Scripts/valenvrc.Common.Runtime.asmdef",
+      "source": "Packages"
     }
+  }
+}
   }
 }
