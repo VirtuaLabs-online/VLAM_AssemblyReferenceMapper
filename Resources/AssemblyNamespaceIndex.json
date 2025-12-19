@@ -740,8 +740,6 @@
       "asmdefPath": "Packages/xyz.drblackrat.pictureloader/Editor/xyz.drblackrat.pictureloader.Editor.asmdef",
       "source": "Packages"
     },
-    {
-  "mappings": {
     "valenvrc": {
       "assemblyName": "valenvrc.AdminTablet.Editor",
       "asmdefPath": "Packages/com.valenvrc.admin_tablet/Editor/valenvrc.AdminTablet.Editor.asmdef",
@@ -837,7 +835,5 @@
       "asmdefPath": "Packages/com.valenvrc.common/Runtime/Scripts/valenvrc.Common.Runtime.asmdef",
       "source": "Packages"
     }
-  }
-}
   }
 }
