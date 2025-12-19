@@ -226,7 +226,6 @@ public class AssemblyReferenceMapper : EditorWindow
     {
         try
         {
-            // Process next asmdef
             if (_csQueue.Count == 0 && _asmdefQueue.Count > 0)
             {
                 _currentAsmdef = _asmdefQueue.Dequeue();
@@ -254,7 +253,6 @@ public class AssemblyReferenceMapper : EditorWindow
                 return;
             }
 
-            // Process next C# file
             if (_csQueue.Count > 0)
             {
                 var data = _csQueue.Dequeue().Split('|');
@@ -483,8 +481,28 @@ public class AssemblyReferenceMapper : EditorWindow
 
     private void AddPackageFolder(string path)
     {
+        if (string.IsNullOrEmpty(path))
+            return;
+
         if (path.StartsWith(Application.dataPath))
+        {
             path = "Assets" + path[Application.dataPath.Length..];
+        }
+        else
+        {
+            var projectDir = Path.GetDirectoryName(Application.dataPath);
+            if (!string.IsNullOrEmpty(projectDir) &&
+                path.StartsWith(projectDir, StringComparison.OrdinalIgnoreCase))
+            {
+                var rel = path[projectDir.Length..].TrimStart(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
+                rel = rel.Replace("\\", "/");
+                if (rel.StartsWith("/"))
+                    rel = rel[1..];
+                path = rel;
+            }
+        }
+
+        path = path.Replace("\\", "/");
 
         if (!_packageFolders.Contains(path))
             _packageFolders.Add(path);
@@ -527,6 +545,37 @@ public class AssemblyReferenceMapper : EditorWindow
 
         var wrapper = JsonConvert.DeserializeObject<MappingsWrapper>(
             File.ReadAllText(MAPPINGS_FILE));
+
+        if (wrapper?.mappings != null)
+        {
+            string projectDir = Path.GetDirectoryName(Application.dataPath)?.Replace("\\", "/") ?? "";
+            string dataPath = Application.dataPath.Replace("\\", "/");
+
+            foreach (var kvp in wrapper.mappings)
+            {
+                var mapping = kvp.Value;
+                if (mapping == null || string.IsNullOrEmpty(mapping.asmdefPath))
+                    continue;
+
+                var p = mapping.asmdefPath.Replace("\\", "/");
+
+                if (p.StartsWith(dataPath, StringComparison.OrdinalIgnoreCase))
+                {
+                    mapping.asmdefPath = "Assets" + p[dataPath.Length..];
+                }
+                else if (!p.StartsWith("Assets/") && !p.StartsWith("Packages/") &&
+                         !string.IsNullOrEmpty(projectDir) &&
+                         p.StartsWith(projectDir, StringComparison.OrdinalIgnoreCase))
+                {
+                    var rel = p[projectDir.Length..].TrimStart('/');
+                    mapping.asmdefPath = rel;
+                }
+                else
+                {
+                    mapping.asmdefPath = p;
+                }
+            }
+        }
 
         _namespaceMap = wrapper?.mappings ?? new();
     }

@@ -1,0 +1,15 @@
+# Ignore everything by default
+/*
+
+# Keep this gitignore so it can be changed later
+!.gitignore
+
+# Allow the AssemblyNamespaceIndex.json and its parent directories
+!Assets/
+!Assets/VirtuaLabs/
+!Assets/VirtuaLabs/Resources/
+!Assets/VirtuaLabs/Resources/AssemblyNamespaceIndex.json
+
+# WARNING: With this file in place, all files in the repository will be
+# ignored by Git except the explicitly whitelisted paths above. Update this
+# file if you need to allow additional files or folders.
